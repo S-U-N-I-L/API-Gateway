@@ -16,3 +16,4 @@ The API Gateway is an API management tool that sits between a client and a colle
 - Start Api Gateway, Product and order service on 8080, 8081 and 8082 ports.
 - Once all three services are up and running, check on Eureka registry home page to verify all services registration with service registry.
 - Start prometheus, this will monitor Api gateway application.
+- Start redis for rate limitting.
